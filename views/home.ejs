@@ -1,0 +1,16 @@
+<%- include('partials/header'); -%>
+
+<h1>Keep Shopping!</h1>
+
+
+
+<% newItems.forEach(function(p){%>
+
+  <div class="card col-xs-12  col-lg-6">
+    <img class="pimage"src="/images/<%=p.name%>.jpg" alt="no-image" width="100%">
+    <p class="price">Price: Rs.<%= p.price %></p>
+    <a href="/pages/<%=p.name%>"><button>View Details</button></a>
+
+  </div>
+
+<%});%>
