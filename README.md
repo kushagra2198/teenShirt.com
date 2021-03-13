@@ -14,4 +14,4 @@ Steps to follow:
     now go to your webbrowser and type "localhost:3000/pages" .
     it should open the project.
 
-Thakyou!!
+Thankyou!!
